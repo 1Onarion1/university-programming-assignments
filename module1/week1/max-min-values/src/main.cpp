@@ -7,7 +7,7 @@ int main() {
 
 
 	// Для типа int 
-	std::cout << "Тип int" std::endl;
+	std::cout << "Тип int" <<  std::endl;
 	std::cout << "Минимальное значение: " << std::numeric_limits<int>::min() << std::endl; // -2147483648
 	std::cout << "Максимальное значение: " << std::numeric_limits<int>::max() <<std::endl; //  2147483648
 	// int занимает 4 байта и используется для хранения целых значений.
