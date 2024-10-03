@@ -37,7 +37,7 @@ public:
 		age = a;
 	}
 	
-	// Вывода данных на экран
+	// Вывод данных на экран
 	void display() const {
 		std::cout << "Name: " << name << ", Age: " << age << std::endl;
 	}
